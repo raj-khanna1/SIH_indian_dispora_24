@@ -1,3 +1,216 @@
-.first-heading{
-    font-size: 2rem;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+}
+
+.shop-container{
+    width:100%;
+    height:auto;
+}
+
+.women-category{
+    width:100%;
+    height:auto;
+}
+
+.women-head{
+    height:30vh;
+    width:100%;
+    background: url(shop-images/Women.webp);
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    padding-left:20%;
+}
+
+
+.women-name{
+     color:white;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.women-accessories{
+    width:100%;
+    height:8vh;
+    background-color:rgb(235, 226, 226);
+    margin-top:2vh;
+    display:flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.women-accessories p{
+    font-size:2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500;
+}
+
+.saare-container{
+ display:grid;
+ grid-template-columns: repeat(5,1fr);
+ padding:2rem;
+margin-top: 1rem;
+margin-bottom:1.3rem;
+margin-left: 1.8rem;
+    
+}
+
+.saares{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+    width:250px;
+    border-radius:1.5rem;
+    max-height: 350px;
+}
+
+.saares img{
+    height:250px;
+    width:250px;
+    background-size:cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem; 
+    cursor:pointer; 
+}
+
+
+.saare-detail{
+   margin-top:1rem;
+   padding-left:0.5rem;
+   font-size:0.9rem;
+   color:rgb(174, 158, 158);
+   width:100%;
+}
+
+.amount{
+    margin-top:0.8rem;
+    display:flex;
+    justify-content: space-between;
+    gap:5.5rem;
+
+}
+.price p{
+    font-size:0.9rem;
+    color:rgb(43, 41, 41);
+}
+
+.cart{
+    width:50px;
+    height:50px;
+
+}
+
+.cart img{
+    width:30px;
+    height:30px;
+}
+
+.by-craft-container{
+    margin-top:3rem;
+    width:100vw;
+    height:100vh;
+
+}
+
+.by-craft-content{
+    width:100%;
+    height:60vh;
+    background-color: rgba(1, 28, 1, 0.763);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-left:8rem;
+    padding-right:8rem;
+    gap:1rem;
+}
+.by-craft1{
+    width:30%;
+    height:30vh;
+    color:#fff;
+}
+
+.by-craft2{
+    width:30%;
+    height:30vh;
+}
+
+.by-craft2 p{
+    color:#fff;
+    text-shadow:1px 2px 2px black;
+}
+.by-craft1 h1{
+     font-size:2.7rem;
+     text-shadow:1px 2px 2px black;
+}
+.by-craft1 p{
+    text-shadow:1px 2px 2px black;
+}
+
+.wood-craft{
+    width:100%;
+    height:10vh;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    gap:2rem;
+    margin-top:6rem;
+}
+
+.wood-craft-details{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:30%;
+}
+.wood-craft-details h1{
+    text-shadow:1px 2px 2px rgb(238, 237, 237);
+}
+.wood-craft-details p{
+    font-size: 0.9rem;
+    margin-top:1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wood-craft-images{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width:30%;
+    row-gap: 2rem;
+}
+
+.wood-craft-images img{
+    height:5.5rem;
+    width:5.5rem;
+
+}
+
+.underline{
+    font-weight: 500;
+    text-align: center;
+    margin-top:8rem;
+}
+
+.footer-container{
+    margin-top:40rem;
+    height:3rem;
+    display:flex;
+    background-color:rgba(1, 28, 1, 0.763);
+
+    justify-content:space-around;
+    align-items: center;
+}
+
+.footer-container p{
+    color:#fff;
+    font-size:1.2rem;
+    text-shadow: 1px 2px 2px black;
 }
