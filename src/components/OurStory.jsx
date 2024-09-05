@@ -1,9 +1,13 @@
+// <<<<<<< main
 import "../styles/OurStory.css";
 
-// import React from 'react';
+import React from 'react';
 import myImage from '../img-folder/craft-maker.jpeg';
 
 
+// =======
+import "../styles/ourStory.css"
+// >>>>>>> main
 
 function OurStory() {
   return (

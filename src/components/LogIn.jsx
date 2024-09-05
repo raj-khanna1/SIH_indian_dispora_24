@@ -8,25 +8,27 @@ function SignIn() {
         <form className="mt-6">
           <div className="mb-2">
             <label
-              htmlFor="email"
+              htmlFor="firstname"
               className="block text-sm font-semibold text-gray-800"
             >
               Firstname
             </label>
             <input
-              type="email"
+              type="text"
+              id="firstname"
               className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           <div className="mb-2">
             <label
-              htmlFor="email"
+              htmlFor="lastname"
               className="block text-sm font-semibold text-gray-800"
             >
               Lastname
             </label>
             <input
-              type="email"
+              type="lastname"
+              id="lastname"
               className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
@@ -39,6 +41,7 @@ function SignIn() {
             </label>
             <input
               type="email"
+              id="email"
               className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
@@ -51,6 +54,7 @@ function SignIn() {
             </label>
             <input
               type="password"
+              id="password"
               className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
