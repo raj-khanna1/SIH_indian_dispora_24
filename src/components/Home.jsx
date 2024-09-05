@@ -1,7 +1,7 @@
 import React from "react";
 import img from "./img1.webp";
 import shop from '../components/Shop.jsx';
-import "../styles/Story.css"
+import "../styles/story.css"
 function Home() {
   return (
     <>
