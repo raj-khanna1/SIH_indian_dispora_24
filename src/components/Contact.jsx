@@ -9,13 +9,14 @@ function Contact() {
           <form className="mt-6">
             <div className="mb-2">
               <label
-                htmlFor="email"
+                htmlFor="name"
                 className="block text-sm font-semibold text-gray-800"
               >
                 Name
               </label>
               <input
-                type="email"
+                type="text"
+                id="name"
                 className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>
@@ -28,6 +29,7 @@ function Contact() {
               </label>
               <input
                 type="email"
+                id="email"
                 className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>
@@ -39,8 +41,8 @@ function Contact() {
                 Message
               </label>
               <textarea
-                className="block w-full h-28 px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
                 id="message"
+                className="block w-full h-28 px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
               ></textarea>
             </div>
             <div className="mt-6">
