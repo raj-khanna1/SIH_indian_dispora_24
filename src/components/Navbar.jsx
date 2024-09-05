@@ -4,8 +4,16 @@ import { Transition } from "@headlessui/react";
 function Navbar({ setState }) {
   const [isOpen, setIsOpen] = useState(false);
   const divRef = useRef(null);
+
+  function toggleActiveClass(element) {
+    const aTags = document.querySelectorAll("a");
+    aTags.forEach((a) => {
+      a.classList.remove("active");
+    });
+    element.classList.add("active");
+  }
   return (
-    <div>
+    <div className="sticky top-0 z-50 ">
       <nav className="bg-gray-800 p-2 shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -20,17 +28,19 @@ function Navbar({ setState }) {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    onClick={() => {
+                    onClick={(e) => {
                       setState("Home");
+                      toggleActiveClass(e.target);
                     }}
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-xl font-medium"
+                    className="active hover:bg-gray-700 text-gray-300  px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Home
                   </a>
 
                   <a
-                    onClick={() => {
+                    onClick={(e) => {
                       setState("Shop");
+                      toggleActiveClass(e.target);
                     }}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
@@ -38,8 +48,9 @@ function Navbar({ setState }) {
                   </a>
 
                   <a
-                    onClick={() => {
+                    onClick={(e) => {
                       setState("OurStory");
+                      toggleActiveClass(e.target);
                     }}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
@@ -47,8 +58,9 @@ function Navbar({ setState }) {
                   </a>
 
                   <a
-                    onClick={() => {
+                    onClick={(e) => {
                       setState("Contact");
+                      toggleActiveClass(e.target);
                     }}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
@@ -56,8 +68,9 @@ function Navbar({ setState }) {
                   </a>
 
                   <a
-                    onClick={() => {
+                    onClick={(e) => {
                       setState("LogIn");
+                      toggleActiveClass(e.target);
                     }}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
