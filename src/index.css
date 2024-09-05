@@ -7,8 +7,11 @@ a{
 }
 
 #root{
-  height: 200vh;
-  background-color: lightblue;
+  height: 130vh;
+  background-color: rgb(91, 93, 95);
+  color:white;
+  margin-bottom:30px;
+  font-size: 2rem;
 }
 
 .active{
