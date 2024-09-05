@@ -6,6 +6,7 @@ import Shop from "./components/Shop";
 import Contact from "./components/Contact";
 import LogIn from "./components/LogIn";
 
+
 function App() {
   const [state, setState] = useState("Home");
 
