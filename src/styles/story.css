@@ -1,0 +1,41 @@
+.body{
+    margin-bottom: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.design{
+    font-size:3rem;
+   
+    margin-left:50px;
+    color:bisque;
+}
+.des{
+    font-size: 1.5rem;
+    margin-left:20px;
+    color:bisque;
+    
+}
+.btn{
+    width:250px;
+border-radius: 10px;
+color:rgb(200, 214, 214);
+background-color: rgb(35, 44, 44);
+}
+.img{
+    margin-left:10px;
+    margin-right: 20px;
+}
+.but{
+    margin-left: 4.35rem;
+    width:20px;
+
+}
+.design{
+    background-color: rgb(147, 155, 155);
+    font-size:2rem;
+    
+   
+display: flex;
+align-items: center;
+justify-content: center;
+  
+}
