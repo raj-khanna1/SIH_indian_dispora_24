@@ -1,8 +1,6 @@
-
-function SignIn() {
-  
+function SignIn({setState}) {
   return (
-    <div className="relative flex flex-col justify-center  overflow-hidden ">
+    <div className="mt-28 relative flex flex-col justify-center  overflow-hidden ">
       <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40 ring-2 ring-indigo-600 lg:max-w-xl mt-5">
         <h1 className="text-3xl font-semibold text-center text-indigo-700 underline uppercase decoration-wavy">
           Sign UP
@@ -26,12 +24,12 @@ function SignIn() {
               htmlFor="EnterPrice Name"
               className="block text-sm font-semibold text-gray-800"
             >
-              EnterPrice Name
+              Enterprise Name
             </label>
             <input
               type="EnterPrice Name"
               id="EnterPrice Name"
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-2 py-1 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           <div className="mb-2">
@@ -39,12 +37,12 @@ function SignIn() {
               htmlFor="Registration No."
               className="block text-sm font-semibold text-gray-800"
             >
-              Registration No.
+              Udyam Registration No.
             </label>
             <input
               type="Registration No."
               id="Registration No."
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-2 py-1 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           <div className="mb-2">
@@ -57,66 +55,19 @@ function SignIn() {
             <input
               type="Mobile No."
               id="Mobile No."
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
-            />
-          </div>
-          <div className="mb-2">
-            <label
-              htmlFor="Udyam No."
-              className="block text-sm font-semibold text-gray-800"
-            >
-              Udyam No.
-            </label>
-            <input
-              type="Udyam No."
-              id="Udyam No."
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
-            />
-          </div>
-          <div className="mb-2">
-            <label
-              htmlFor="email"
-              className="block text-sm font-semibold text-gray-800"
-            >
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
-            />
-          </div>
-          <div className="mb-2">
-            <label
-              htmlFor="password"
-              className="block text-sm font-semibold text-gray-800"
-            >
-              Password
-            </label>
-            <input
-              type="password"
-              id="password"
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
-            />
-          </div>
-          <div className="mb-2">
-            <label
-              htmlFor="OTP No."
-              className="block text-sm font-semibold text-gray-800"
-            >
-              OTP No.
-            </label>
-            <input
-              type="OTP No."
-              id="OTP No."
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-2 py-1 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
 
           <div className="mt-6">
-            <button  className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-indigo-700 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600">
-            
-            next page
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                setState("NextPage");
+              }}
+              className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-indigo-700 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600"
+            >
+              Submit
             </button>
           </div>
         </form>

@@ -76,15 +76,6 @@ function Navbar({ setState }) {
                   >
                     Log In
                   </a>
-                  <a
-                    onClick={(e) => {
-                      setState("NextPage");
-                      toggleActiveClass(e.target);
-                    }}
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
-                  >
-                    NextPage
-                  </a>
                 </div>
               </div>
             </div>
@@ -147,27 +138,54 @@ function Navbar({ setState }) {
           {() => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={divRef} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
+                <a
+                  onClick={(e) => {
+                    setState("Home");
+                    toggleActiveClass(e.target);
+                  }}
+                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
                   Home
                 </a>
 
-                <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                <a
+                  onClick={(e) => {
+                    setState("Shop");
+                    toggleActiveClass(e.target);
+                  }}
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
                   Shop
                 </a>
 
-                <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                <a
+                  onClick={(e) => {
+                    setState("OurStory");
+                    toggleActiveClass(e.target);
+                  }}
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
                   Our story
                 </a>
 
-                <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                <a
+                  onClick={(e) => {
+                    setState("Contact");
+                    toggleActiveClass(e.target);
+                  }}
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
                   Contact
                 </a>
 
-                <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-                  Sign in
-                </a>
-                <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-                  nextPage
+                <a
+                  onClick={(e) => {
+                    setState("LogIn");
+                    toggleActiveClass(e.target);
+                  }}
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Log In
                 </a>
               </div>
             </div>
