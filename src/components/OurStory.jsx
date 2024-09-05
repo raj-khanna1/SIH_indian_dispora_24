@@ -1,3 +1,5 @@
+import "../assets/OurStory.css"
+
 function OurStory() {
   return (
     <>
