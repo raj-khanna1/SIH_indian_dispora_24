@@ -1,4 +1,4 @@
-import "../assets/OurStory.css"
+import "../styles/OurStory.css"
 
 function OurStory() {
   return (
@@ -6,6 +6,7 @@ function OurStory() {
       <h1 className="mt-28 text-5xl font-bold flex justify-center items-center">
         This is Edited by rahul negi
       </h1>
+      
     </>
   );
 }
