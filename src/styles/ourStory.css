@@ -1,3 +1,262 @@
+/* <<<<<<< HEAD */
 .first-heading{
     font-size: 2rem;
 }
+/* ======= */
+.our-story-first-section {
+    padding: 8rem 8rem;
+    background-color: #eaeae8; /* Light background color */
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .content-first {
+    
+    display: flex;
+    /* justify-content: space-evenly; Space between the heading and paragraph */
+    /* align-items: flex-start; Align items to the start (top) of the flex container */
+  }
+  
+  .infos {
+
+    margin: 0 1rem;
+    
+  }
+  
+  .title_name_01 {
+    /* width: 40%; */
+    font-size: 60px;
+    font-weight: bold;
+    color: #27221D;
+    margin-bottom: 20px;
+    font-family:serif;
+  }
+  
+  .line-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4rem;
+    
+  }
+  
+  .line-01 {
+    width: 17rem;
+    height: 1.2px;
+    background-color: #dabda1; /* Dark line color */
+  }
+  
+  .description_data {
+    /* width: 100%; */
+    font-size: 20px;
+    color: #27221D;
+    line-height: 1.6;
+    max-width: 800px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  @media (max-width: 768px) {
+    .our-story-first-section {
+      padding: 4rem 2rem; /* Adjust padding for smaller screens */
+    }
+  
+    .container {
+      width: 100%; /* Full width container on small screens */
+      padding: 0; /* Remove padding */
+    }
+  
+    .content-first {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center align items */
+    }
+  
+    .title_name_01 {
+      font-size: 40px; /* Reduce font size on smaller screens */
+      text-align: center; /* Center align text */
+    }
+  
+    .line-right {
+      justify-content: center; /* Center align the line on small screens */
+      margin-bottom: 2rem; /* Adjust margin */
+    }
+  
+    .line-01 {
+      width: 12rem; /* Reduce line width */
+    }
+  
+    .description_data {
+      font-size: 18px; /* Reduce font size */
+      max-width: 100%; /* Allow description to use full width */
+      text-align: center; /* Center align text */
+      padding: 0 1rem; /* Add some padding for better readability */
+    }
+  }
+  
+
+  /* General Styles for the container */
+.our-story-second-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+    
+    background-color: black;
+    
+  }
+  
+  .second-section-container {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    width: 100%;
+    height: 45rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    color: white;
+  }
+  
+  /* Styles for content and image sections */
+  .content-data {
+    width: 50%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+  
+  .second-section-infos {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Specific Styles for the content section */
+  .heading_and_desc {
+    margin-right: 20px;
+  }
+  
+  .second-section-line-01{
+    /* width: 50px; */
+    height: 1.2px;
+    background-color: #bb9393;
+    margin-bottom: 10px;
+  }
+  
+  .second-section-title_name_01 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .second-section-description_data {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* Specific Styles for the image section */
+
+  
+
+  .second-section-infos1 .img_data{
+
+    background-color: rgb(96, 61, 61);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 25rem;
+    height: 30rem;
+    padding: 2rem;
+  }  
+  .img_data img {
+    height: 25rem;
+    width: 20rem;
+    /* height: 2rem; */
+    object-fit: cover;
+  }
+  
+  /* Ensure that the img_data and heading_and_desc have equal height */
+  .second-container, .content-data {
+    display: flex;
+  }
+  
+  .second-section-infos {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  @media (max-width: 768px) {
+
+    .content-data {
+        flex-direction: column; /* Stack content and image vertically */
+        gap: 2rem; /* Adjust gap between elements */
+        height: auto; /* Allow height to adjust based on content */
+      }
+
+    .second-section-title_name_01 {
+      font-size: 1.5rem; /* Reduce font size on smaller screens */
+    }
+  
+    .second-section-description_data {
+      font-size: 1rem; /* Reduce font size on smaller screens */
+    }
+  
+    .second-section-infos {
+      padding: 5px; /* Reduce padding */
+    }
+  
+    .heading_and_desc {
+      margin-right: 0; /* Remove right margin */
+    }
+  }
+
+
+ /* Styling for the third section container */
+.our-story-third-section {
+    padding: 40px;
+    background-color: #f4f4f4; /* Light grey background */
+  }
+  
+  .third-section-container {
+    max-width: 900px;
+    margin: 0 auto; /* Center align the container */
+    padding: 20px;
+    background-color: #fff; /* White background for the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    
+  }
+  
+  /* Title styling */
+  .third-section-title_name_01 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333; /* Dark grey text color */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  /* Description styling */
+  .third-section-description_data {
+    font-size: 1.1rem;
+    line-height: 1.6; /* Increased line height for readability */
+    color: #666; /* Medium grey text color */
+    margin-bottom: 20px; /* Space below the paragraph */
+    text-align: justify; /* Justify text for a clean look */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+
+    .third-section-title_name_01 {
+      font-size: 20px; /* Adjust font size on smaller screens */
+    }
+  
+    .third-section-description_data {
+      font-size: 14px; /* Adjust font size on smaller screens */
+    }
+  }
+  
+  
+>>>>>>> 47c237977df79a5378dfa5c332f4d751e3e007b7
