@@ -1,34 +1,75 @@
+
 function SignIn() {
+  
   return (
-    <div className="relative flex flex-col justify-center h-[80vh] overflow-hidden">
-      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40 ring-2 ring-indigo-600 lg:max-w-xl">
+    <div className="relative flex flex-col justify-center  overflow-hidden ">
+      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40 ring-2 ring-indigo-600 lg:max-w-xl mt-5">
         <h1 className="text-3xl font-semibold text-center text-indigo-700 underline uppercase decoration-wavy">
           Sign UP
         </h1>
         <form className="mt-6">
           <div className="mb-2">
             <label
-              htmlFor="firstname"
+              htmlFor="FullName"
               className="block text-sm font-semibold text-gray-800"
             >
-              Firstname
+              FullName
             </label>
             <input
               type="text"
-              id="firstname"
+              id="FullName"
+              className="block w-full px-2 py-1 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            />
+          </div>
+          <div className="mb-2">
+            <label
+              htmlFor="EnterPrice Name"
+              className="block text-sm font-semibold text-gray-800"
+            >
+              EnterPrice Name
+            </label>
+            <input
+              type="EnterPrice Name"
+              id="EnterPrice Name"
               className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           <div className="mb-2">
             <label
-              htmlFor="lastname"
+              htmlFor="Registration No."
               className="block text-sm font-semibold text-gray-800"
             >
-              Lastname
+              Registration No.
             </label>
             <input
-              type="lastname"
-              id="lastname"
+              type="Registration No."
+              id="Registration No."
+              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            />
+          </div>
+          <div className="mb-2">
+            <label
+              htmlFor="Mobile No."
+              className="block text-sm font-semibold text-gray-800"
+            >
+              Mobile No.
+            </label>
+            <input
+              type="Mobile No."
+              id="Mobile No."
+              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            />
+          </div>
+          <div className="mb-2">
+            <label
+              htmlFor="Udyam No."
+              className="block text-sm font-semibold text-gray-800"
+            >
+              Udyam No.
+            </label>
+            <input
+              type="Udyam No."
+              id="Udyam No."
               className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
@@ -58,9 +99,24 @@ function SignIn() {
               className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
+          <div className="mb-2">
+            <label
+              htmlFor="OTP No."
+              className="block text-sm font-semibold text-gray-800"
+            >
+              OTP No.
+            </label>
+            <input
+              type="OTP No."
+              id="OTP No."
+              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            />
+          </div>
+
           <div className="mt-6">
-            <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-indigo-700 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600">
-              Login
+            <button  className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-indigo-700 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600">
+            
+            next page
             </button>
           </div>
         </form>

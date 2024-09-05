@@ -76,6 +76,15 @@ function Navbar({ setState }) {
                   >
                     Log In
                   </a>
+                  <a
+                    onClick={(e) => {
+                      setState("NextPage");
+                      toggleActiveClass(e.target);
+                    }}
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+                  >
+                    NextPage
+                  </a>
                 </div>
               </div>
             </div>
@@ -156,6 +165,9 @@ function Navbar({ setState }) {
 
                 <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                   Sign in
+                </a>
+                <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                  nextPage
                 </a>
               </div>
             </div>
