@@ -6,6 +6,12 @@ a{
   cursor: pointer;
 }
 
-body{
+#root{
+  height: 200vh;
   background-color: lightblue;
+}
+
+.active{
+  color: white;
+  background: rgba(128, 128, 128, 0.3);
 }
