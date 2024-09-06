@@ -14,11 +14,11 @@ body{
     width:100%;
     height:auto;
 }
-
-.women-category{
+/*  */
+/* .women-category{
     width:100%;
-    height:auto;
-}
+    height:auto;+
+} */
 
 .women-head{
     height:30vh;
@@ -473,5 +473,3 @@ margin-left: 1.8rem;
       font-size: 14px; /* Adjust font size on smaller screens */
     }
   }
-/* >>>>>>> 47c237977df79a5378dfa5c332f4d751e3e007b7 */
-/* >>>>>>> e2ba125cdd18a31c2215f4d3bcebde7a32d0de77 */
