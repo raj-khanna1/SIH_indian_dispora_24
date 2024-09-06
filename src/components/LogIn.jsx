@@ -1,66 +1,73 @@
-function SignIn() {
+function SignIn({setState}) {
   return (
-    <div className="relative flex flex-col justify-center h-[80vh] overflow-hidden">
-      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40 ring-2 ring-indigo-600 lg:max-w-xl">
+    <div className="mt-28 relative flex flex-col justify-center  overflow-hidden ">
+      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40 ring-2 ring-indigo-600 lg:max-w-xl mt-5">
         <h1 className="text-3xl font-semibold text-center text-indigo-700 underline uppercase decoration-wavy">
           Sign UP
         </h1>
         <form className="mt-6">
           <div className="mb-2">
             <label
-              htmlFor="firstname"
+              htmlFor="FullName"
               className="block text-sm font-semibold text-gray-800"
             >
-              Firstname
+              FullName
             </label>
             <input
               type="text"
-              id="firstname"
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              id="FullName"
+              className="block w-full px-2 py-1 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           <div className="mb-2">
             <label
-              htmlFor="lastname"
+              htmlFor="EnterPrice Name"
               className="block text-sm font-semibold text-gray-800"
             >
-              Lastname
+              Enterprise Name
             </label>
             <input
-              type="lastname"
-              id="lastname"
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              type="EnterPrice Name"
+              id="EnterPrice Name"
+              className="block w-full px-2 py-1 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           <div className="mb-2">
             <label
-              htmlFor="email"
+              htmlFor="Registration No."
               className="block text-sm font-semibold text-gray-800"
             >
-              Email
+              Udyam Registration No.
             </label>
             <input
-              type="email"
-              id="email"
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              type="Registration No."
+              id="Registration No."
+              className="block w-full px-2 py-1 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           <div className="mb-2">
             <label
-              htmlFor="password"
+              htmlFor="Mobile No."
               className="block text-sm font-semibold text-gray-800"
             >
-              Password
+              Mobile No.
             </label>
             <input
-              type="password"
-              id="password"
-              className="block w-full px-4 py-2 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              type="Mobile No."
+              id="Mobile No."
+              className="block w-full px-2 py-1 mt-2 text-indigo-700 bg-white border rounded-md focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
+
           <div className="mt-6">
-            <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-indigo-700 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600">
-              Login
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                setState("NextPage");
+              }}
+              className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-indigo-700 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600"
+            >
+              Submit
             </button>
           </div>
         </form>
