@@ -31,7 +31,8 @@ This software for india diaspora to buy  traditional things from india.
 We used different technologies in this project which are given below -:
 - fronnt_end -: html,css, javascript,react.js 
 - back-end -: node.js ,express,js 
-- database -: MYSQL ,mongoDB 
+- database -: MYSQL ,mongoDB
+- deployment-: Vercel
 
 
 
