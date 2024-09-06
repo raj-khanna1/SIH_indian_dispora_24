@@ -158,17 +158,16 @@ function Home() {
                   <p>₹ 1,250 INR </p>
                 </div>
               </div>
-                <div className="trending-grid">
-                  <div className="trending-grid-images">
-                    <img src={trending5} alt="" />
-                  </div>
-
-                  <div className="trnding-grid-cont">
-                    <p>Handwoven Elegance. Exclusive Linen Jamdani....</p>
-                    <p>₹ 4,420 INR </p>
-                  </div>
+              <div className="trending-grid">
+                <div className="trending-grid-images">
+                  <img src={trending5} alt="" />
                 </div>
-             
+
+                <div className="trnding-grid-cont">
+                  <p>Handwoven Elegance. Exclusive Linen Jamdani....</p>
+                  <p>₹ 4,420 INR </p>
+                </div>
+              </div>
 
               <div className="trending-grid">
                 <div className="trending-grid-images">
@@ -228,62 +227,60 @@ function Home() {
               </div>
             </div>
             <div className="choice-grid">
-            <div className="choices-grid-images">
-              <img src={choices2} alt="" />
+              <div className="choices-grid-images">
+                <img src={choices2} alt="" />
+              </div>
+
+              <div className="choices-grid-cont">
+                <p>Handwoven Elegance. Organic Kala Cotton Wra....</p>
+                <p>₹ 2,760 INR </p>
+              </div>
             </div>
 
-            <div className="choices-grid-cont">
-              <p>Handwoven Elegance. Organic Kala Cotton Wra....</p>
-              <p>₹ 2,760 INR </p>
+            <div className="choice-grid">
+              <div className="choices-grid-images">
+                <img src={choices3} alt="" />
+              </div>
+
+              <div className="choices-grid-cont">
+                <p>Handcrafted Jawaja Leather Tote Bag with Rug Patch -....</p>
+                <p> 4,090 INR </p>
+              </div>
+            </div>
+
+            <div className="choice-grid">
+              <div className="choices-grid-images">
+                <img src={choices4} alt="" />
+              </div>
+
+              <div className="choices-grid-cont">
+                <p>Exclusive Bagh Hand Block Printed Cotton Saree -....</p>
+                <p>₹ 3,170 INR </p>
+              </div>
+            </div>
+
+            <div className="choice-grid">
+              <div className="choices-grid-images">
+                <img src={choices5} alt="" />
+              </div>
+
+              <div className="choices-grid-cont">
+                <p>Traditional Elegance. Hand Embroidered Ilkal & Zard....</p>
+                <p>₹ 3,450 INR </p>
+              </div>
+            </div>
+
+            <div className="choice-grid">
+              <div className="choices-grid-images">
+                <img src={choices6} alt="" />
+              </div>
+
+              <div className="choices-grid-cont">
+                <p>Sheer Elegance. Exclusive Handwoven Resham Silk....</p>
+                <p>₹ 5,990 INR </p>
+              </div>
             </div>
           </div>
-
-          <div className="choice-grid">
-            <div className="choices-grid-images">
-              <img src={choices3} alt="" />
-            </div>
-
-            <div className="choices-grid-cont">
-              <p>Handcrafted Jawaja Leather Tote Bag with Rug Patch -....</p>
-              <p> 4,090 INR </p>
-            </div>
-          </div>
-
-          <div className="choice-grid">
-            <div className="choices-grid-images">
-              <img src={choices4} alt="" />
-            </div>
-
-            <div className="choices-grid-cont">
-              <p>Exclusive Bagh Hand Block Printed Cotton Saree -....</p>
-              <p>₹ 3,170 INR </p>
-            </div>
-          </div>
-
-          <div className="choice-grid">
-            <div className="choices-grid-images">
-              <img src={choices5} alt="" />
-            </div>
-
-            <div className="choices-grid-cont">
-              <p>Traditional Elegance. Hand Embroidered Ilkal & Zard....</p>
-              <p>₹ 3,450 INR </p>
-            </div>
-          </div>
-
-          <div className="choice-grid">
-            <div className="choices-grid-images">
-              <img src={choices6} alt="" />
-            </div>
-
-            <div className="choices-grid-cont">
-              <p>Sheer Elegance. Exclusive Handwoven Resham Silk....</p>
-              <p>₹ 5,990 INR </p>
-            </div>
-          </div>
-          </div>
-
-          
         </div>
       </section>
 
@@ -296,63 +293,61 @@ function Home() {
 
       <section className="home-craft-section">
         <div className="home-craft-container">
-
-
-        <div className="home-craft-top-section">
-          <div className="home-craft-cont">
-            <p className="home-craft-para">For the home</p>
-            <h1>Where the heart resides</h1> <hr />
-          </div>
-
-          <div className="home-craft-btn">
-            <button>See All</button>
-          </div>
-        </div>
-
-        <div className="home-craft-grid">
-          <div className="home-grid">
-            <div className="home-craft-images">
-              <img src={home_craft1} alt="" />
-            </div>
-
+          <div className="home-craft-top-section">
             <div className="home-craft-cont">
-              <p>The Shahi Collection. Exclusive, Fine Kashmiri A....</p>
-              <p>₹ 4,290 INR </p>
+              <p className="home-craft-para">For the home</p>
+              <h1>Where the heart resides</h1> <hr />
+            </div>
+
+            <div className="home-craft-btn">
+              <button>See All</button>
             </div>
           </div>
 
-          <div className="home-grid">
-            <div className="home-craft-images">
-              <img src={home_craft2} alt="" />
+          <div className="home-craft-grid">
+            <div className="home-grid">
+              <div className="home-craft-images">
+                <img src={home_craft1} alt="" />
+              </div>
+
+              <div className="home-craft-cont">
+                <p>The Shahi Collection. Exclusive, Fine Kashmiri A....</p>
+                <p>₹ 4,290 INR </p>
+              </div>
             </div>
 
-            <div className="home-craft-cont">
-              <p>Pattachitra Art Curio - Cow....</p>
-              <p>₹ 5,750 INR </p>
-            </div>
-          </div>
+            <div className="home-grid">
+              <div className="home-craft-images">
+                <img src={home_craft2} alt="" />
+              </div>
 
-          <div className="home-grid">
-            <div className="home-craft-images">
-              <img src={home_craft3} alt="" />
-            </div>
-
-            <div className="home-craft-cont">
-              <p>Tambat Handbeaten Copper Gangal - Large....</p>
-              <p>₹ 2,150 INR </p>
-            </div>
-          </div>
-
-          <div className="home-grid">
-            <div className="home-craft-images">
-              <img src={home_craft4} alt="" />
+              <div className="home-craft-cont">
+                <p>Pattachitra Art Curio - Cow....</p>
+                <p>₹ 5,750 INR </p>
+              </div>
             </div>
 
-            <div className="home-craft-cont">
-              <p>Kashida Pattu Woven Cushion Covers - Large....</p>
-              <p>₹ 1,510 INR </p>
+            <div className="home-grid">
+              <div className="home-craft-images">
+                <img src={home_craft3} alt="" />
+              </div>
+
+              <div className="home-craft-cont">
+                <p>Tambat Handbeaten Copper Gangal - Large....</p>
+                <p>₹ 2,150 INR </p>
+              </div>
             </div>
-          </div>
+
+            <div className="home-grid">
+              <div className="home-craft-images">
+                <img src={home_craft4} alt="" />
+              </div>
+
+              <div className="home-craft-cont">
+                <p>Kashida Pattu Woven Cushion Covers - Large....</p>
+                <p>₹ 1,510 INR </p>
+              </div>
+            </div>
             <div className="home-grid">
               <div className="home-craft-images">
                 <img src={home_craft6} alt="" />
@@ -363,52 +358,20 @@ function Home() {
                 <p>₹ 4,590 INR </p>
               </div>
             </div>
-          
 
-          <div className="home-grid">
-            <div className="home-craft-images">
-              <img src={home_craft5} alt="" />
-            </div>
+            <div className="home-grid">
+              <div className="home-craft-images">
+                <img src={home_craft5} alt="" />
+              </div>
 
-            <div className="home-craft-cont">
-              <p>Delhi Blue Art Pottery Wall Plaque - Mohenjo Daro....</p>
-              <p>₹ 4,290 INR </p>
+              <div className="home-craft-cont">
+                <p>Delhi Blue Art Pottery Wall Plaque - Mohenjo Daro....</p>
+                <p>₹ 4,290 INR </p>
+              </div>
             </div>
           </div>
         </div>
-
-        </div>
-        
       </section>
-=======
-import React from "react";
-import img from "../img-folder/img1.webp";
-import shop from '../components/Shop.jsx';
-import "../styles/story.css"
-function Home() {
-  return (
-    <>
-        <h1 className="mt-20 text-5xl font-bold flex justify-center items-center ">
-        <div className="body"><h2 className="design">Embrace the
-spirit of India</h2><br/>
-<h5 className="des">An unparalleled legacy that spans millennia. Pure, authentic craft sourced from artisans across the Indian sub-continent. Our vast collection of over 80 different craft forms celebrates a heritage of some of the world’s oldest handicrafts.
-</h5>
-<div className="mt-6 but">
-           <a href={"shop"}> <button className="btn">
-              shopnow
-            </button></a>
-         </div>
-         </div>
-     <img src={img} alt="" className="img"/>
-    
-    </h1>
-    <section className="design"> 
-      <h3 className="bts">Every purchase
-      has a purpose</h3>
-      <p>We have direct partnerships with over 320 Indian artisans and over 2000 indirectly. As a social enterprise that seeks to offer a fair-trade platform, our primary purpose is to support handicraft workers.
-         With each purchase you make, you can help make a difference.</p>
-    </section>
-// >>>>>>> main
     </>
   );
 }
